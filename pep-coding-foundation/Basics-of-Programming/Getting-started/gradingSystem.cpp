@@ -19,22 +19,22 @@ int main()
     cin >> marks;
     if (marks > 90)
     {
-        cout << "Excellent" << endl;
+        cout << "excellent" << endl;
     }
     else if (marks <= 90 && marks > 80)
     {
-        cout << "Good" << endl;
+        cout << "good" << endl;
     }
     else if (marks <= 80 && marks > 70)
     {
-        cout << "Fair" << endl;
+        cout << "fair" << endl;
     }
     else if (marks <= 70 && marks > 60)
     {
-        cout << "Meets expectations" << endl;
+        cout << "meets expectations" << endl;
     }
     else
     {
-        cout << "Below par" << endl;
+        cout << "below par" << endl;
     }
 }

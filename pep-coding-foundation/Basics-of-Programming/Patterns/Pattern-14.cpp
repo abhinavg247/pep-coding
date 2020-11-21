@@ -16,16 +16,9 @@ Special Points :
 int main()
 {
     int n;
-    cin >> n;
+    cin>>n;
 
-    int a = 0;
-    int b = 1;
-    int c;
-    for (int i = 0; i < n; i++)
-    {
-        cout << a <<endl;
-        c = a + b;
-        a = b;
-        b = c;
+    for(int i = 1;i<=10;i++){
+        cout<<n<<" * "<<i<<" = "<<n*i<<endl;
     }
 }
